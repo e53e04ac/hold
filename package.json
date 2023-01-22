@@ -1,0 +1,22 @@
+{
+  "name": "hold",
+  "version": "0.0.0",
+  "description": "",
+  "keywords": [],
+  "license": "MIT",
+  "author": "e53e04ac",
+  "homepage": "https://github.com/e53e04ac/hold#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e53e04ac/hold.git"
+  },
+  "bugs": {
+    "url": "https://github.com/e53e04ac/hold/issues"
+  },
+  "type": "module",
+  "types": "./index.d.ts",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
