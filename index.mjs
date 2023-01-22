@@ -4,7 +4,7 @@
     MIT License
 */
 
-/** @type {import('./index').Hold} */
+/** @type {import('.').Hold} */
 const hold = ((x) => {
 
     /** @typedef {ReturnType<typeof x>} T */
@@ -12,7 +12,7 @@ const hold = ((x) => {
     /** @type {undefined | T} */
     let _value = undefined;
 
-    /** @type {import('./index').Get<T>} */
+    /** @type {import('.').Get<T>} */
     const self = (() => {
         if (_value === undefined) {
             _value = x();
@@ -24,7 +24,7 @@ const hold = ((x) => {
 
 });
 
-/** @type {import('./index').Unwrap} */
+/** @type {import('.').Unwrap} */
 const unwrap = ((x) => {
     return (x instanceof Function ? x() : x);
 });
