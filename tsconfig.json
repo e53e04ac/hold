@@ -3,9 +3,14 @@
         "target": "esnext",
         "module": "esnext",
         "moduleResolution": "node",
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
         "allowJs": true,
         "checkJs": true,
-        "noEmit": true,
-        "strict": true
-    }
+        "noEmit": true
+    },
+    "exclude": [
+        "node_modules/"
+    ]
 }
