@@ -11,18 +11,22 @@ import { unwrap } from 'e53e04ac/hold';
 
 ~~~~~ mermaid
 graph RL;
-  A(["e53e04ac/hold"]);
+  A(["package.json"]);
+  subgraph "dependencies";
+  end;
   subgraph "devDependencies";
     B_0(["@types/node"]);
   end;
-  A --reference--> B_0;
+  A ----> B_0;
   click B_0 "https://www.npmjs.org/package/@types/node/v/18.13.0";
 ~~~~~
 
 ~~~~~ mermaid
 graph LR;
-  subgraph "e53e04ac/hold"
-    C0("index.mjs");
-    C1("index.d.ts");
-  end;
+  A(["index.mjs"])
+~~~~~
+
+~~~~~ mermaid
+graph LR;
+  A(["index.d.ts"])
 ~~~~~
