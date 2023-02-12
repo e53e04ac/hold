@@ -5,10 +5,6 @@ npm install e53e04ac/hold
 ~~~~~
 
 ~~~~~ mjs
-import { Get<T> } from 'e53e04ac/hold';
-import { ValueOrGet<T> } from 'e53e04ac/hold';
-import { Hold } from 'e53e04ac/hold';
-import { Unwrap } from 'e53e04ac/hold';
 import { hold } from 'e53e04ac/hold';
 import { unwrap } from 'e53e04ac/hold';
 ~~~~~
@@ -37,12 +33,12 @@ graph RL;
 ~~~~~ mermaid
 graph RL;
   subgraph "e53e04ac/hold";
-    E_0(["Get<T>"]);
-    E_1(["ValueOrGet<T>"]);
-    E_2(["Hold"]);
-    E_3(["Unwrap"]);
-    E_4(["hold"]);
-    E_5(["unwrap"]);
+    E_0(["type Get<T>"]);
+    E_1(["type ValueOrGet<T>"]);
+    E_2(["type Hold"]);
+    E_3(["type Unwrap"]);
+    E_4(["const hold"]);
+    E_5(["const unwrap"]);
   end;
   M(["index.d.ts"])
   E_0 ----> M;
