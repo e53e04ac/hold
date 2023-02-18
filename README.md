@@ -16,7 +16,7 @@ graph RL;
     B_0(["@types/node"]);
   end;
   A ----> B_0;
-  click B_0 "https://www.npmjs.org/package/@types/node/v/18.14.0";
+  click B_0 "https://www.npmjs.com/package/@types/node/v/18.14.0";
 ~~~~~
 
 ~~~~~ mermaid
