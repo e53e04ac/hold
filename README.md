@@ -5,8 +5,8 @@ npm install e53e04ac/hold
 ~~~~~
 
 ~~~~~ mjs
-import { hold } from 'e53e04ac/hold';
-import { unwrap } from 'e53e04ac/hold';
+import { hold } from 'hold';
+import { unwrap } from 'hold';
 ~~~~~
 
 ~~~~~ mermaid
