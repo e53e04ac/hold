@@ -26,17 +26,6 @@ graph RL;
 ~~~~~ mermaid
 graph RL;
   subgraph "e53e04ac/hold";
-    E_0(["hold"]);
-    E_1(["unwrap"]);
-  end;
-  M["index.mjs"]
-  E_0 ----> M;
-  E_1 ----> M;
-~~~~~
-
-~~~~~ mermaid
-graph RL;
-  subgraph "e53e04ac/hold";
     E_0(["type Get<T>"]);
     E_1(["type ValueOrGet<T>"]);
     E_2(["type Hold"]);
@@ -51,4 +40,15 @@ graph RL;
   E_3 ----> M;
   E_4 ----> M;
   E_5 ----> M;
+~~~~~
+
+~~~~~ mermaid
+graph RL;
+  subgraph "e53e04ac/hold";
+    E_0(["hold"]);
+    E_1(["unwrap"]);
+  end;
+  M["index.mjs"]
+  E_0 ----> M;
+  E_1 ----> M;
 ~~~~~
