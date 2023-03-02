@@ -16,11 +16,11 @@ graph RL;
     B_0(["@types/node"]);
   end;
   subgraph "npmjs";
-    C_0(["@types/node\n18.14.2"]);
+    C_0(["@types/node\n18.14.4"]);
   end;
   A ----> B_0;
   B_0 ----> C_0;
-  click C_0 "https://www.npmjs.com/package/@types/node/v/18.14.2";
+  click C_0 "https://www.npmjs.com/package/@types/node/v/18.14.4";
 ~~~~~
 
 ~~~~~ mermaid
